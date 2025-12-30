@@ -5,7 +5,7 @@ export const portfolioData = {
         email: "{{EMAIL}}",
         location: "Paris, France",
         bio: "Passionate about building the future of the web with 3D, AI, and scalable architectures. I turn complex data into immersive experiences.",
-        avatar: "/me.jpg",
+        avatar: "/profile-new.jpg",
         social: {
             github: "{{GITHUB}}",
             linkedin: "{{LINKEDIN}}",
