@@ -13,6 +13,12 @@ const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
 });
 
+export const metadata: Metadata = {
+  title: "Tomefy | Creative Technologist",
+  description: "Senior Full-Stack Developer & Creative Technologist Portfolio",
+  metadataBase: new URL("https://tomefy.com"),
+};
+
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
