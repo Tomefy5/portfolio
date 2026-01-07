@@ -1,19 +1,19 @@
 {
-  "Hero": {
-    "available": "Available for new opportunities (FR)",
-    "title1": "I build (FR)",
-    "titleHighlight": "Future-Ready (FR)",
-    "title2": "Digital Experiences. (FR)",
-    "subtitle": "Creative Technologist & Full-Stack Developer. Specializing in high-performance web applications, 3D interfaces, and AI integration. (FR)",
-    "viewProjects": "View Projects (FR)",
-    "contactMe": "Contact Me (FR)"
-  },
-  "Common": {
-    "nav": {
-      "projects": "Projects (FR)",
-      "caseStudies": "Case Studies (FR)",
-      "skills": "Skills (FR)",
-      "contact": "Contact (FR)"
+    "Hero": {
+        "available": "Disponible pour de nouvelles opportunités",
+        "title1": "Je conçois des",
+        "titleHighlight": "Expériences Numériques",
+        "title2": "Prêtes pour le Futur.",
+        "subtitle": "Technologue Créatif & Développeur Full-Stack. Spécialisé dans les applications web haute performance, les interfaces 3D et l'intégration de l'IA.",
+        "viewProjects": "Voir les Projets",
+        "contactMe": "Me Contacter"
+    },
+    "Common": {
+        "nav": {
+            "projects": "Projets",
+            "caseStudies": "Études de Cas",
+            "skills": "Compétences",
+            "contact": "Contact"
+        }
     }
-  }
 }
