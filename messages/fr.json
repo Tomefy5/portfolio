@@ -26,7 +26,24 @@
             "AI": "IA",
             "Blockchain": "Blockchain",
             "IoT": "IoT",
-            "Data": "Data"
+            "Data": "Data",
+            "LegalTech": "LegalTech",
+            "System": "Système",
+            "Open Source": "Open Source"
+        },
+        "projects": {
+            "haylalana": {
+                "description": "Démocratiser l'accès au droit à Madagascar. Une PWA vulgarisant les textes juridiques avec des parcours adaptés par âge."
+            },
+            "nanovec": {
+                "description": "Base de données vectorielle haute performance en Rust. Utilise HNSW, la persistance custom (.nvec) et le mmap."
+            },
+            "antoka": {
+                "description": "Automatisation de contrats via IA & Blockchain. Réduit le temps de rédaction de 90% et certifie l'authenticité sur Hedera."
+            },
+            "generic-recommender": {
+                "description": "Moteur de recommandation open-source agnostique. Conçu en Clean Architecture pour s'adapter à tout domaine métier."
+            }
         }
     },
     "Skills": {

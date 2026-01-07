@@ -26,7 +26,24 @@
             "AI": "AI",
             "Blockchain": "Blockchain",
             "IoT": "IoT",
-            "Data": "Data"
+            "Data": "Data",
+            "LegalTech": "LegalTech",
+            "System": "System Patterns",
+            "Open Source": "Open Source"
+        },
+        "projects": {
+            "haylalana": {
+                "description": "Democratizing legal access in Madagascar. A PWA educating citizens on their rights with age-adapted pathways."
+            },
+            "nanovec": {
+                "description": "A high-performance vector database written in Rust. Features HNSW algorithm, custom persistence, and blazing-fast FFI integration."
+            },
+            "antoka": {
+                "description": "AI & Blockchain automated contract platform. Reduces drafting time by 90% while ensuring authenticity via Hedera DLT."
+            },
+            "generic-recommender": {
+                "description": "Open-source, agnostic recommendation engine built with Clean Architecture. Decoupled from domain data for maximum reusability."
+            }
         }
     },
     "Skills": {
