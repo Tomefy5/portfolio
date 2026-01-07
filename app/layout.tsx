@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import { Chatbot } from "@/components/ui/chatbot";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -29,6 +30,7 @@ export default function RootLayout({
         className={`${inter.variable} ${spaceGrotesk.variable} antialiased selection:bg-neon-cyan selection:text-background`}
       >
         {children}
+        <Chatbot />
       </body>
     </html>
   );
