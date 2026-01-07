@@ -52,7 +52,7 @@ export default function PhotoSection() {
                                 </div>
                                 <h3 className="text-lg font-semibold text-white mb-2">{t('currentStack')}</h3>
                                 <p className="text-gray-400 font-mono text-sm">
-                                    Next.js 15 • React Server Components • TypeScript • Tailwind v4 • Three.js • OpenAI
+                                    Next.js 15 (RSC) • TypeScript • Rust • AI Engineering • Distributed Systems
                                 </p>
                             </div>
                         </ag.reveal>

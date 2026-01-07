@@ -1,8 +1,8 @@
 export const portfolioData = {
     personal: {
         name: "{{NAME}}",
-        title: "Product-Minded Engineer & Founder",
-        email: "{{EMAIL}}",
+        title: "Software & AI Engineer | Founder",
+        email: "tomefyandrytsiresy@gmail.com",
         location: "Paris, France",
         bio: "Passionate about building the future of the web with 3D, AI, and scalable architectures. I turn complex data into immersive experiences.",
         avatar: "/profile-new.jpg",
