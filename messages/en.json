@@ -11,7 +11,7 @@
     "PhotoSection": {
         "title": "Beyond the",
         "titleHighlight": "Code",
-        "bio": "Passionate about building the future of the web with 3D, AI, and scalable architectures. I turn complex data into immersive experiences.",
+        "bio": "I am a Product-Minded Engineer who builds systems that solve real problems. For me, code is just a tool; the goal is always to deliver tangible value to users and business impact. As a Founder & Engineer, I operate at the intersection of technical excellence and product strategy.",
         "currentStack": "Current Stack",
         "yearsExp": "Years Exp.",
         "projects": "Projects",
@@ -33,16 +33,16 @@
         },
         "projects": {
             "haylalana": {
-                "description": "Democratizing legal access in Madagascar. A PWA educating citizens on their rights with age-adapted pathways."
+                "description": "Democratizing legal access in Madagascar. A PWA educating citizens on their rights with age-adapted pathways and accessible content."
             },
             "nanovec": {
                 "description": "A high-performance vector database written in Rust. Features HNSW algorithm, custom persistence, and blazing-fast FFI integration."
             },
             "antoka": {
-                "description": "AI & Blockchain automated contract platform. Reduces drafting time by 90% while ensuring authenticity via Hedera DLT."
+                "description": "AI-powered contract automation platform reducing drafting time by 90% via LLMs, while ensuring document authenticity on the Hedera blockchain."
             },
             "generic-recommender": {
-                "description": "Open-source, agnostic recommendation engine built with Clean Architecture. Decoupled from domain data for maximum reusability."
+                "description": "Domain-agnostic recommendation engine built to democratize personalization. Decouples logic from data, enabling plug-and-play ML pipelines for any use case."
             }
         }
     },
@@ -64,8 +64,8 @@
     },
     "Contact": {
         "title1": "Let's Build",
-        "title2": "Something Epic.",
-        "subtitle": "Open for freelance projects, consulting, or just a coffee chat about AI & Web3.",
+        "title2": "Something People Want.",
+        "subtitle": "I am looking to collaborate with ambitious teams who value engineering craft as much as product velocity.",
         "form": {
             "name": "Name",
             "namePlaceholder": "John Doe",

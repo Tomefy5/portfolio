@@ -11,7 +11,7 @@
     "PhotoSection": {
         "title": "Au-delà du",
         "titleHighlight": "Code",
-        "bio": "Passionné par la construction du web de demain via la 3D, l'IA et les architectures scalables. Je transforme des données complexes en expériences immersives.",
+        "bio": "Je suis un Ingénieur orienté Produit qui construit des systèmes pour résoudre des problèmes réels. Code n'est qu'un outil ; l'objectif est de délivrer une valeur tangible. En tant que Fondateur & Ingénieur, j'opère à l'intersection de l'excellence technique et de la stratégie produit.",
         "currentStack": "Stack Actuelle",
         "yearsExp": "Années d'Exp.",
         "projects": "Projets",
@@ -33,16 +33,16 @@
         },
         "projects": {
             "haylalana": {
-                "description": "Démocratiser l'accès au droit à Madagascar. Une PWA vulgarisant les textes juridiques avec des parcours adaptés par âge."
+                "description": "Plateforme éducative démocratisant l'accès au droit à Madagascar. Une PWA vulgarisant les concepts juridiques pour tous les citoyens."
             },
             "nanovec": {
-                "description": "Base de données vectorielle haute performance en Rust. Utilise HNSW, la persistance custom (.nvec) et le mmap."
+                "description": "Base de données vectorielle haute performance en Rust. Utilise HNSW, la persistance custom (.nvec) et des optimisations SIMD."
             },
             "antoka": {
-                "description": "Automatisation de contrats via IA & Blockchain. Réduit le temps de rédaction de 90% et certifie l'authenticité sur Hedera."
+                "description": "Plateforme d'automatisation de contrats via IA & Blockchain. Réduit le temps de rédaction de 90% par LLM et certifie l'authenticité sur Hedera."
             },
             "generic-recommender": {
-                "description": "Moteur de recommandation open-source agnostique. Conçu en Clean Architecture pour s'adapter à tout domaine métier."
+                "description": "Moteur de recommandation agnostique open-source. Découple la logique algorithmique des données métier pour une réutilisabilité maximale."
             }
         }
     },
@@ -63,9 +63,9 @@
         "accuracy": "Précision"
     },
     "Contact": {
-        "title1": "Créons",
-        "title2": "l'Exceptionnel.",
-        "subtitle": "Ouvert aux projets freelance, au conseil, ou simplement pour échanger sur l'IA & le Web3.",
+        "title1": "Construisons",
+        "title2": "Ce que les gens veulent vraiment.",
+        "subtitle": "Je cherche à collaborer avec des équipes ambitieuses qui valorisent l'art de l'ingénierie autant que la vélocité produit.",
         "form": {
             "name": "Nom",
             "namePlaceholder": "Jean Dupont",

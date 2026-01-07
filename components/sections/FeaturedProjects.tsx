@@ -72,7 +72,7 @@ export default function FeaturedProjects() {
                                     {/* Let's refine the replacement content to include the image. */}
 
                                     {/* Project Image */}
-                                    <div className="relative h-64 w-full overflow-hidden border-b border-white/10 bg-black/50">
+                                    <div className="relative h-48 w-full overflow-hidden border-b border-white/10 bg-black/50">
                                         {/* eslint-disable-next-line @next/next/no-img-element */}
                                         <img
                                             src={project.image}
@@ -82,27 +82,27 @@ export default function FeaturedProjects() {
                                         <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
                                     </div>
 
-                                    <div className="p-8 relative z-10 flex flex-col h-full -mt-12">
-                                        <div className="flex justify-between items-start mb-6">
+                                    <div className="p-6 relative z-10 flex flex-col h-full -mt-10">
+                                        <div className="flex justify-between items-start mb-4">
                                             <div className="px-3 py-1 rounded-full border border-sky-500/30 bg-sky-500/10 text-sky-400 text-xs font-mono uppercase tracking-wider backdrop-blur-md">
                                                 {project.category}
                                             </div>
 
-                                            <div className="flex gap-4">
-                                                <Link href={project.links.github} className="text-gray-400 hover:text-white transition-colors p-2 bg-black/50 rounded-full hover:bg-neon-cyan hover:text-black">
-                                                    <Github size={20} />
+                                            <div className="flex gap-3">
+                                                <Link href={project.links.github} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors p-2 bg-black/50 rounded-full hover:bg-neon-cyan hover:text-black">
+                                                    <Github size={18} />
                                                 </Link>
-                                                <Link href={project.links.demo} className="text-gray-400 hover:text-white transition-colors p-2 bg-black/50 rounded-full hover:bg-neon-cyan hover:text-black">
-                                                    <ExternalLink size={20} />
+                                                <Link href={project.links.demo} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors p-2 bg-black/50 rounded-full hover:bg-neon-cyan hover:text-black">
+                                                    <ExternalLink size={18} />
                                                 </Link>
                                             </div>
                                         </div>
 
-                                        <h3 className="text-2xl font-bold mb-2 group-hover:text-neon-cyan transition-colors">
+                                        <h3 className="text-xl font-bold mb-2 group-hover:text-neon-cyan transition-colors">
                                             {project.title}
                                         </h3>
 
-                                        <p className="text-gray-400 mb-6 flex-grow text-sm leading-relaxed">
+                                        <p className="text-gray-400 mb-4 flex-grow text-sm leading-relaxed line-clamp-3">
                                             {t(project.description)}
                                         </p>
 

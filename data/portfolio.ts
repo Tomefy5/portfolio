@@ -1,15 +1,17 @@
 export const portfolioData = {
     personal: {
         name: "{{NAME}}",
-        title: "Full-Stack Developer & Creative Technologist",
+        title: "Product-Minded Engineer & Founder",
         email: "{{EMAIL}}",
         location: "Paris, France",
         bio: "Passionate about building the future of the web with 3D, AI, and scalable architectures. I turn complex data into immersive experiences.",
         avatar: "/profile-new.jpg",
         social: {
-            github: "{{GITHUB}}",
-            linkedin: "{{LINKEDIN}}",
-            twitter: "{{TWITTER}}",
+            github: "https://github.com/Tomefy5",
+            linkedin: "https://www.linkedin.com/in/tomefy-ny-soa-andry-tsiresy-9a111a322",
+            twitter: "https://x.com/Tomefy5",
+            medium: "https://medium.com/@tomefyandrytsiresy",
+            devto: "https://dev.to/tomefy5"
         },
     },
     projects: [

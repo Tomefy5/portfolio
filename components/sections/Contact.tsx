@@ -2,7 +2,7 @@
 
 import { ag } from "@/lib/anim";
 import { portfolioData } from "@/data/portfolio";
-import { Mail, Github, Linkedin, Twitter, Send } from "lucide-react";
+import { Mail, Github, Linkedin, Twitter, Send, BookOpen, Code } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import { useTranslations } from 'next-intl';
@@ -49,7 +49,9 @@ export default function Contact() {
                                 {[
                                     { icon: Github, href: personal.social.github },
                                     { icon: Linkedin, href: personal.social.linkedin },
-                                    { icon: Twitter, href: personal.social.twitter }
+                                    { icon: Twitter, href: personal.social.twitter },
+                                    { icon: BookOpen, href: personal.social.medium },
+                                    { icon: Code, href: personal.social.devto }
                                 ].map((social, i) => (
                                     <Link key={i} href={social.href} className="p-3 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:scale-110 transition-all text-gray-400 hover:text-white">
                                         <social.icon size={24} />
