@@ -13,9 +13,20 @@ const navItems = [
     { name: "Contact", href: "#contact" },
 ];
 
+import { useTranslations } from 'next-intl';
+import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
+
 export default function Navbar() {
+    const t = useTranslations('Common.nav');
     const [scrolled, setScrolled] = useState(false);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+    const navItems = [
+        { name: t('projects'), href: "#projects" },
+        { name: t('caseStudies'), href: "#case-studies" },
+        { name: t('skills'), href: "#skills" },
+        { name: t('contact'), href: "#contact" },
+    ];
 
     useEffect(() => {
         const handleScroll = () => {
@@ -48,18 +59,24 @@ export default function Navbar() {
                             {item.name}
                         </Link>
                     ))}
-                    <button className="px-5 py-2 rounded-full border border-neon-cyan/50 text-neon-cyan text-sm hover:bg-neon-cyan/10 transition-colors">
-                        Resume
-                    </button>
+                    <div className="flex items-center gap-4">
+                        <LanguageSwitcher />
+                        <button className="px-5 py-2 rounded-full border border-neon-cyan/50 text-neon-cyan text-sm hover:bg-neon-cyan/10 transition-colors">
+                            Resume
+                        </button>
+                    </div>
                 </nav>
 
                 {/* Mobile Toggle */}
-                <button
-                    className="md:hidden text-white"
-                    onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                >
-                    {mobileMenuOpen ? <X /> : <Menu />}
-                </button>
+                <div className="md:hidden flex items-center gap-4">
+                    <LanguageSwitcher />
+                    <button
+                        className="text-white"
+                        onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                    >
+                        {mobileMenuOpen ? <X /> : <Menu />}
+                    </button>
+                </div>
             </div>
 
             {/* Mobile Nav */}

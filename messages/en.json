@@ -1,0 +1,19 @@
+{
+    "Hero": {
+        "available": "Available for new opportunities",
+        "title1": "I build",
+        "titleHighlight": "Future-Ready",
+        "title2": "Digital Experiences.",
+        "subtitle": "Creative Technologist & Full-Stack Developer. Specializing in high-performance web applications, 3D interfaces, and AI integration.",
+        "viewProjects": "View Projects",
+        "contactMe": "Contact Me"
+    },
+    "Common": {
+        "nav": {
+            "projects": "Projects",
+            "caseStudies": "Case Studies",
+            "skills": "Skills",
+            "contact": "Contact"
+        }
+    }
+}

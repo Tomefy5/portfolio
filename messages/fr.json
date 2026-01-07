@@ -1,0 +1,19 @@
+{
+  "Hero": {
+    "available": "Available for new opportunities (FR)",
+    "title1": "I build (FR)",
+    "titleHighlight": "Future-Ready (FR)",
+    "title2": "Digital Experiences. (FR)",
+    "subtitle": "Creative Technologist & Full-Stack Developer. Specializing in high-performance web applications, 3D interfaces, and AI integration. (FR)",
+    "viewProjects": "View Projects (FR)",
+    "contactMe": "Contact Me (FR)"
+  },
+  "Common": {
+    "nav": {
+      "projects": "Projects (FR)",
+      "caseStudies": "Case Studies (FR)",
+      "skills": "Skills (FR)",
+      "contact": "Contact (FR)"
+    }
+  }
+}
