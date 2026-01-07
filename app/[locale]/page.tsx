@@ -23,7 +23,7 @@ export default function Home() {
       </div>
 
       <footer className="py-8 text-center text-gray-600 text-sm border-t border-white/5 relative z-10 glass-panel">
-        <p>&copy; {new Date().getFullYear()} {"{NAME}"}. Built with Next.js & Antigravity.</p>
+        <p>&copy; {new Date().getFullYear()} Tomefy. Built with Next.js.</p>
       </footer>
     </main>
   );

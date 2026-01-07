@@ -1,6 +1,6 @@
 export const portfolioData = {
     personal: {
-        name: "{{NAME}}",
+        name: "Tomefy",
         title: "Software & AI Engineer | Founder",
         email: "tomefyandrytsiresy@gmail.com",
         location: "Paris, France",
