@@ -8,6 +8,57 @@
         "viewProjects": "View Projects",
         "contactMe": "Contact Me"
     },
+    "PhotoSection": {
+        "title": "Beyond the",
+        "titleHighlight": "Code",
+        "currentStack": "Current Stack",
+        "yearsExp": "Years Exp.",
+        "projects": "Projects",
+        "commitment": "Commitment"
+    },
+    "FeaturedProjects": {
+        "title": "Featured",
+        "titleHighlight": "Work",
+        "viewArchived": "View Archived Projects",
+        "filters": {
+            "All": "All",
+            "AI": "AI",
+            "Blockchain": "Blockchain",
+            "IoT": "IoT",
+            "Data": "Data"
+        }
+    },
+    "Skills": {
+        "title": "Technical",
+        "titleHighlight": "Arsenal"
+    },
+    "CaseStudies": {
+        "title": "In-Depth",
+        "titleHighlight": "Case Studies",
+        "label": "CASE STUDY",
+        "exampleTitle": "Scaling Real-time AI Infrastructure",
+        "problem": "Problem",
+        "problemDesc": "High latency in processing large-scale video streams for anomaly detection.",
+        "solution": "Solution",
+        "solutionDesc": "Implemented a distributed pipeline using Kafka and Edge Computing nodes.",
+        "latency": "Latency",
+        "accuracy": "Accuracy"
+    },
+    "Contact": {
+        "title1": "Let's Build",
+        "title2": "Something Epic.",
+        "subtitle": "Open for freelance projects, consulting, or just a coffee chat about AI & Web3.",
+        "form": {
+            "name": "Name",
+            "namePlaceholder": "John Doe",
+            "email": "Email",
+            "emailPlaceholder": "john@example.com",
+            "message": "Message",
+            "messagePlaceholder": "Tell me about your project...",
+            "send": "Send Message",
+            "sent": "Message Sent!"
+        }
+    },
     "Common": {
         "nav": {
             "projects": "Projects",

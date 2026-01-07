@@ -6,10 +6,12 @@ import { ExternalLink, Github, ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { useTranslations } from 'next-intl';
 
 export default function FeaturedProjects() {
     const { projects } = portfolioData;
     const [filter, setFilter] = useState("All");
+    const t = useTranslations('FeaturedProjects');
 
     const categories = ["All", "AI", "Blockchain", "IoT"];
 
@@ -23,7 +25,7 @@ export default function FeaturedProjects() {
                 <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
                     <ag.reveal>
                         <h2 className="text-4xl md:text-5xl font-bold font-heading">
-                            Featured <span className="text-neon-purple">Work</span>
+                            {t('title')} <span className="text-neon-purple">{t('titleHighlight')}</span>
                         </h2>
                     </ag.reveal>
 
@@ -39,7 +41,7 @@ export default function FeaturedProjects() {
                                         : "text-gray-400 hover:text-white"
                                 )}
                             >
-                                {cat}
+                                {t(`filters.${cat}`)}
                             </button>
                         ))}
                     </ag.reveal>
@@ -103,7 +105,7 @@ export default function FeaturedProjects() {
                 <div className="mt-16 text-center">
                     <ag.reveal delay={0.4}>
                         <Link href="#" className="inline-flex items-center gap-2 text-neon-cyan hover:underline underline-offset-4">
-                            View Archieved Projects <ArrowUpRight size={16} />
+                            {t('viewArchived')} <ArrowUpRight size={16} />
                         </Link>
                     </ag.reveal>
                 </div>

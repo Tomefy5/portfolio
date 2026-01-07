@@ -3,9 +3,11 @@
 import Image from "next/image";
 import { ag } from "@/lib/anim";
 import { portfolioData } from "@/data/portfolio";
+import { useTranslations } from 'next-intl';
 
 export default function PhotoSection() {
     const { personal } = portfolioData;
+    const t = useTranslations('PhotoSection');
 
     return (
         <section id="about" className="py-24 relative overflow-hidden">
@@ -34,7 +36,7 @@ export default function PhotoSection() {
                     <div className="space-y-8">
                         <ag.reveal delay={0.2}>
                             <h2 className="text-4xl md:text-5xl font-bold font-heading mb-4">
-                                Beyond the <span className="text-neon-cyan">Code</span>.
+                                {t('title')} <span className="text-neon-cyan">{t('titleHighlight')}</span>.
                             </h2>
                             <div className="h-1 w-20 bg-neon-purple rounded-full mb-6" />
 
@@ -48,7 +50,7 @@ export default function PhotoSection() {
                                         <path d="M12 2L2 7l10 5 10-5-10-5zm0 9l2.5-1.25L12 8.5l-2.5 1.25L12 11zm0 2.5l-5-2.5-5 2.5L12 22l10-8.5-5-2.5-5 2.5z" />
                                     </svg>
                                 </div>
-                                <h3 className="text-lg font-semibold text-white mb-2">Current Stack</h3>
+                                <h3 className="text-lg font-semibold text-white mb-2">{t('currentStack')}</h3>
                                 <p className="text-gray-400 font-mono text-sm">
                                     Next.js 15 • React Server Components • TypeScript • Tailwind v4 • Three.js • OpenAI
                                 </p>
@@ -59,15 +61,15 @@ export default function PhotoSection() {
                             <div className="grid grid-cols-3 gap-4 text-center">
                                 <div>
                                     <div className="text-3xl font-bold text-white mb-1">5+</div>
-                                    <div className="text-xs text-gray-500 uppercase tracking-widest">Years Exp.</div>
+                                    <div className="text-xs text-gray-500 uppercase tracking-widest">{t('yearsExp')}</div>
                                 </div>
                                 <div>
                                     <div className="text-3xl font-bold text-white mb-1">20+</div>
-                                    <div className="text-xs text-gray-500 uppercase tracking-widest">Projects</div>
+                                    <div className="text-xs text-gray-500 uppercase tracking-widest">{t('projects')}</div>
                                 </div>
                                 <div>
                                     <div className="text-3xl font-bold text-white mb-1">100%</div>
-                                    <div className="text-xs text-gray-500 uppercase tracking-widest">Commitment</div>
+                                    <div className="text-xs text-gray-500 uppercase tracking-widest">{t('commitment')}</div>
                                 </div>
                             </div>
                         </ag.reveal>

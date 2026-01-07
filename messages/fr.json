@@ -8,6 +8,57 @@
         "viewProjects": "Voir les Projets",
         "contactMe": "Me Contacter"
     },
+    "PhotoSection": {
+        "title": "Au-delà du",
+        "titleHighlight": "Code",
+        "currentStack": "Stack Actuelle",
+        "yearsExp": "Années d'Exp.",
+        "projects": "Projets",
+        "commitment": "Engagement"
+    },
+    "FeaturedProjects": {
+        "title": "Travaux",
+        "titleHighlight": "En Vedette",
+        "viewArchived": "Voir les Projets Archivés",
+        "filters": {
+            "All": "Tout",
+            "AI": "IA",
+            "Blockchain": "Blockchain",
+            "IoT": "IoT",
+            "Data": "Data"
+        }
+    },
+    "Skills": {
+        "title": "Arsenal",
+        "titleHighlight": "Technique"
+    },
+    "CaseStudies": {
+        "title": "Études de Cas",
+        "titleHighlight": "Approfondies",
+        "label": "ÉTUDE DE CAS",
+        "exampleTitle": "Mise à l'échelle d'Infrastructure IA Temps Réel",
+        "problem": "Problème",
+        "problemDesc": "Latence élevée dans le traitement de flux vidéo à grande échelle pour la détection d'anomalies.",
+        "solution": "Solution",
+        "solutionDesc": "Mise en œuvre d'un pipeline distribué utilisant Kafka et des nœuds Edge Computing.",
+        "latency": "Latence",
+        "accuracy": "Précision"
+    },
+    "Contact": {
+        "title1": "Construisons",
+        "title2": "Quelque Chose d'Épique.",
+        "subtitle": "Ouvert aux projets freelance, au conseil, ou simplement pour discuter d'IA & Web3 autour d'un café.",
+        "form": {
+            "name": "Nom",
+            "namePlaceholder": "Jean Dupont",
+            "email": "Email",
+            "emailPlaceholder": "jean@exemple.com",
+            "message": "Message",
+            "messagePlaceholder": "Parlez-moi de votre projet...",
+            "send": "Envoyer le Message",
+            "sent": "Message Envoyé !"
+        }
+    },
     "Common": {
         "nav": {
             "projects": "Projets",

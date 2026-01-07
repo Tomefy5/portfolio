@@ -2,9 +2,11 @@
 
 import { ag } from "@/lib/anim";
 import { portfolioData } from "@/data/portfolio";
+import { useTranslations } from 'next-intl';
 
 export default function Skills() {
     const { skills } = portfolioData;
+    const t = useTranslations('Skills');
 
     return (
         <section id="skills" className="py-24 relative">
@@ -13,7 +15,7 @@ export default function Skills() {
             <div className="container mx-auto px-6 relative z-10">
                 <ag.reveal>
                     <h2 className="text-4xl md:text-5xl font-bold font-heading mb-16 text-center">
-                        Technical <span className="text-neon-cyan">Arsenal</span>
+                        {t('title')} <span className="text-neon-cyan">{t('titleHighlight')}</span>
                     </h2>
                 </ag.reveal>
 
