@@ -41,7 +41,7 @@ export default function PhotoSection() {
                             <div className="h-1 w-20 bg-neon-purple rounded-full mb-6" />
 
                             <p className="text-xl text-gray-300 leading-relaxed mb-6">
-                                {personal.bio}
+                                {t('bio')}
                             </p>
 
                             <div className="p-6 rounded-2xl glass-panel relative overflow-hidden">

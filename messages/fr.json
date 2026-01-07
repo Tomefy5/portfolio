@@ -4,22 +4,23 @@
         "title1": "Je conçois des",
         "titleHighlight": "Expériences Numériques",
         "title2": "Prêtes pour le Futur.",
-        "subtitle": "Technologue Créatif & Développeur Full-Stack. Spécialisé dans les applications web haute performance, les interfaces 3D et l'intégration de l'IA.",
-        "viewProjects": "Voir les Projets",
+        "subtitle": "Creative Technologist & Développeur Full-Stack. Spécialisé dans les applications web haute performance, les interfaces 3D et l'intégration de l'IA.",
+        "viewProjects": "Découvrir mes Projets",
         "contactMe": "Me Contacter"
     },
     "PhotoSection": {
         "title": "Au-delà du",
         "titleHighlight": "Code",
+        "bio": "Passionné par la construction du web de demain via la 3D, l'IA et les architectures scalables. Je transforme des données complexes en expériences immersives.",
         "currentStack": "Stack Actuelle",
         "yearsExp": "Années d'Exp.",
         "projects": "Projets",
-        "commitment": "Engagement"
+        "commitment": "Implication"
     },
     "FeaturedProjects": {
-        "title": "Travaux",
-        "titleHighlight": "En Vedette",
-        "viewArchived": "Voir les Projets Archivés",
+        "title": "Projets",
+        "titleHighlight": "Phares",
+        "viewArchived": "Consulter les Archives",
         "filters": {
             "All": "Tout",
             "AI": "IA",
@@ -29,25 +30,25 @@
         }
     },
     "Skills": {
-        "title": "Arsenal",
+        "title": "Expertise",
         "titleHighlight": "Technique"
     },
     "CaseStudies": {
         "title": "Études de Cas",
         "titleHighlight": "Approfondies",
         "label": "ÉTUDE DE CAS",
-        "exampleTitle": "Mise à l'échelle d'Infrastructure IA Temps Réel",
+        "exampleTitle": "Scaling d'Infrastructure IA Temps Réel",
         "problem": "Problème",
-        "problemDesc": "Latence élevée dans le traitement de flux vidéo à grande échelle pour la détection d'anomalies.",
+        "problemDesc": "Latence élevée dans le traitement de flux vidéo massifs pour la détection d'anomalies.",
         "solution": "Solution",
-        "solutionDesc": "Mise en œuvre d'un pipeline distribué utilisant Kafka et des nœuds Edge Computing.",
+        "solutionDesc": "Implémentation d'un pipeline distribué avec Kafka et nœuds Edge Computing.",
         "latency": "Latence",
         "accuracy": "Précision"
     },
     "Contact": {
-        "title1": "Construisons",
-        "title2": "Quelque Chose d'Épique.",
-        "subtitle": "Ouvert aux projets freelance, au conseil, ou simplement pour discuter d'IA & Web3 autour d'un café.",
+        "title1": "Créons",
+        "title2": "l'Exceptionnel.",
+        "subtitle": "Ouvert aux projets freelance, au conseil, ou simplement pour échanger sur l'IA & le Web3.",
         "form": {
             "name": "Nom",
             "namePlaceholder": "Jean Dupont",
